@@ -1,0 +1,21 @@
+{
+    "name": "runner/payment",
+    "description": "The most difficult payment component",
+    "type": "library",
+    "license": "GPL-3.0",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "RunnerLee",
+            "email": "runnerleer@gmail.com",
+            "homepage": "https://runnerlee.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "autoload": {
+        "Runner\\Payment\\": "src"
+    }
+}
